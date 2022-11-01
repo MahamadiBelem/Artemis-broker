@@ -1,0 +1,12 @@
+2022-10-21 05:34:31,770 DEBUG - Starting WinSW in the CLI mode
+2022-10-21 05:34:32,320 DEBUG - User requested the status of the process with id 'artemis-ibamisie-0.0.0.0'
+2022-10-21 05:34:32,329 DEBUG - Completed. Exit code is 0
+2022-10-21 05:34:42,873 DEBUG - Starting WinSW in the CLI mode
+2022-10-21 05:34:43,266 INFO  - Starting the service with id 'artemis-ibamisie-0.0.0.0'
+2022-10-21 05:34:43,332 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   à WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   à WMI.WmiRoot.InstanceHandler.Invoke(Object proxy, MethodInfo method, Object[] arguments)
+   à winsw.WrapperService.<Run>g__Start|33_2(<>c__DisplayClass33_0& )
+   à winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   à winsw.WrapperService.Main(String[] args)

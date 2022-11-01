@@ -1,0 +1,86 @@
+2022-10-25 00:19:42,742 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2022-10-25 00:19:42,833 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2022-10-25 00:19:42,905 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2022-10-25 00:19:43,020 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536 870 912
+2022-10-25 00:19:43,077 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2022-10-25 00:19:43,080 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2022-10-25 00:19:43,081 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2022-10-25 00:19:43,082 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2022-10-25 00:19:43,085 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2022-10-25 00:19:43,088 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2022-10-25 00:19:43,178 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2022-10-25 00:19:43,178 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2022-10-25 00:19:43,934 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2022-10-25 00:19:43,958 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2022-10-25 00:19:43,991 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2022-10-25 00:19:44,000 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2022-10-25 00:19:44,854 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2022-10-25 00:19:44,903 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2022-10-25 00:19:44,922 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2022-10-25 00:19:44,938 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2022-10-25 00:19:44,988 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2022-10-25 00:19:44,996 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2022-10-25 00:19:44,999 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.22.0 [0.0.0.0, nodeID=191ba545-5102-11ed-ac20-005056c00008] 
+2022-10-25 00:19:45,573 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2022-10-25 00:19:45,785 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2022-10-25 00:19:46,736 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2022-10-25 00:19:46,758 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2022-10-25 00:19:46,774 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.14.2
+2022-10-25 00:19:46,801 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2022-10-25 00:19:46,862 INFO  [io.hawt.web.auth.LoginRedirectFilter] Hawtio loginRedirectFilter is using 1800 sec. HttpSession timeout
+2022-10-25 00:19:46,909 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2022-10-25 00:19:46,927 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Users/Belem/Downloads/apache-artemis-2.22.0-bin/bin/ibamisie/etc/\jolokia-access.xml]
+2022-10-25 00:19:47,129 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2022-10-25 00:19:47,130 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2022-10-25 00:19:47,134 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2022-10-25 00:29:16,160 INFO  [io.hawt.web.auth.LoginServlet] Hawtio login is using 1800 sec. HttpSession timeout
+2022-10-25 00:29:17,227 INFO  [io.hawt.web.auth.keycloak.KeycloakServlet] Keycloak integration is disabled
+2022-10-25 00:29:27,875 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: --user=admin
+2022-10-25 01:33:40,005 INFO  [io.hawt.web.auth.AuthenticationFilter] Destroying hawtio authentication filter
+2022-10-25 01:33:40,021 INFO  [io.hawt.HawtioContextListener] Destroying hawtio services
+2022-10-25 01:33:40,092 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2022-10-25 01:33:40,130 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Destroyed activemq-branding plugin
+2022-10-25 01:33:40,196 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.22.0 [191ba545-5102-11ed-ac20-005056c00008] stopped, uptime 1 hour 13 minutes
+2022-10-25 16:12:08,482 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2022-10-25 16:12:08,557 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2022-10-25 16:12:08,617 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2022-10-25 16:12:08,726 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536 870 912
+2022-10-25 16:12:08,779 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2022-10-25 16:12:08,782 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2022-10-25 16:12:08,784 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2022-10-25 16:12:08,785 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2022-10-25 16:12:08,788 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2022-10-25 16:12:08,791 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2022-10-25 16:12:08,876 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2022-10-25 16:12:08,877 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2022-10-25 16:12:09,723 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2022-10-25 16:12:09,737 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2022-10-25 16:12:09,844 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2022-10-25 16:12:09,888 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2022-10-25 16:12:10,567 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2022-10-25 16:12:10,593 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2022-10-25 16:12:10,619 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2022-10-25 16:12:10,639 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2022-10-25 16:12:10,659 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2022-10-25 16:12:10,672 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2022-10-25 16:12:10,676 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.22.0 [0.0.0.0, nodeID=191ba545-5102-11ed-ac20-005056c00008] 
+2022-10-25 16:12:11,260 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2022-10-25 16:12:11,535 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2022-10-25 16:12:12,593 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2022-10-25 16:12:12,625 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2022-10-25 16:12:12,640 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.14.2
+2022-10-25 16:12:12,654 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2022-10-25 16:12:12,680 INFO  [io.hawt.web.auth.LoginRedirectFilter] Hawtio loginRedirectFilter is using 1800 sec. HttpSession timeout
+2022-10-25 16:12:12,713 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2022-10-25 16:12:12,731 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Users/Belem/Downloads/apache-artemis-2.22.0-bin/bin/ibamisie/etc/\jolokia-access.xml]
+2022-10-25 16:12:12,914 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2022-10-25 16:12:12,920 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2022-10-25 16:12:12,922 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2022-10-25 16:12:33,880 INFO  [io.hawt.web.auth.LoginServlet] Hawtio login is using 1800 sec. HttpSession timeout
+2022-10-25 16:12:34,737 INFO  [io.hawt.web.auth.keycloak.KeycloakServlet] Keycloak integration is disabled
+2022-10-25 16:12:37,632 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: --user=admin
+2022-10-25 16:13:32,202 INFO  [io.hawt.web.auth.AuthenticationFilter] Destroying hawtio authentication filter
+2022-10-25 16:13:32,215 INFO  [io.hawt.HawtioContextListener] Destroying hawtio services
+2022-10-25 16:13:32,299 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2022-10-25 16:13:32,387 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Destroyed activemq-branding plugin
+2022-10-25 16:13:32,467 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.22.0 [191ba545-5102-11ed-ac20-005056c00008] stopped, uptime 1 minute
